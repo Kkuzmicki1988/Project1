@@ -1,0 +1,52 @@
+/* Variables */
+/* Global */
+h2:first-of-type {
+  font-family: "Dancing Script", cursive;
+}
+
+h2, h3 {
+  font-family: "Vidaloka", serif;
+}
+
+p {
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* Header */
+.header {
+  background-image: url(https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center;
+  object-fit: cover;
+  height: 100vh;
+  padding: 20px 20px;
+}
+
+.header .col-4 h2 {
+  font-family: "Dancing Script", cursive;
+  color: #f39c12;
+  border: 2px solid white;
+  transform: translateX(100px);
+  font-size: 22px;
+}
+
+.header ul {
+  list-style-type: none;
+  border: 2px solid white;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  transform: translateX(100px);
+}
+
+.header a {
+  font-family: "Satisfy", cursive;
+  text-decoration: none;
+  color: #bdc3c7;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.header .col h2, .header h3 {
+  font-family: "Cuprum", sans-serif;
+  border: 2px solid white;
+}
+/*# sourceMappingURL=style.css.map */
