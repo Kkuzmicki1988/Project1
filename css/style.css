@@ -98,8 +98,37 @@ p {
 
 .services .col-md-4 i {
   font-size: 50px;
-  margin: 10px;
+  margin: 10px 0;
   padding-bottom: 10px;
   color: #f39c12;
+}
+
+/* Portfolio */
+.portfolio {
+  background-color: #f1f2f6;
+}
+
+.portfolio .card {
+  margin-bottom: 50px;
+}
+
+.portfolio .col-12 {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.portfolio .col-12 h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.portfolio img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio .card-body {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
