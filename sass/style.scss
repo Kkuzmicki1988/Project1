@@ -34,9 +34,7 @@ p{
     font-size: 22px;
     padding-left: 50px;
 }
-  ul{
-      padding-right: 50px;
-  }
+
   li {
     list-style-type: none;
     display: inline-block;
@@ -47,7 +45,7 @@ p{
     text-decoration: none;
     color: #bdc3c7;
     font-size: 18px;
-    padding: 10px;
+    padding: 10px 30px;
 
 }
   .col {
@@ -85,7 +83,7 @@ p{
   .col-12 {
     margin-top: 70px;
     h3 {
-      font-size: 50px;
+      font-size: 40px;
       font-weight: bold;
     }
 }
@@ -114,7 +112,7 @@ p{
     margin: 50px 0;
     text-align: center;
     h2{
-      font-size: 50px;
+      font-size: 40px;
       font-weight: bold;
     }
   }
@@ -168,6 +166,8 @@ p{
   }
    .header ul {
       text-align: center;
+      display: grid;
+      margin-top: -30px;
   }
   .services .col-md-4 {
     margin-top: -10px;
@@ -177,6 +177,7 @@ p{
     margin-bottom: 30px;
   }
   .footer {
+    max-width: 90%;
     .links {
       display: flex;
       justify-content: center;
@@ -187,11 +188,16 @@ p{
 }
   .col-md-4 {
     .left{
-      border: 2px solid red;
-      padding-bottom: 10px;
+      padding-bottom: 20px;
     }
   }
-}
   .col-md-3 h2 {
     transform: translatex(-50px);
   }
+  .col {
+    margin-top: 35px;
+    h2, h3{
+      line-height: 0.7;
+    }
+  }
+}
